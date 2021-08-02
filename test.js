@@ -3,7 +3,7 @@ const datas = [];
 
 getData()
 console.log(0)
-
+// bonus feature No.4
 $(window).scroll(function () {
     let scrollTop = $(this).scrollTop();
     let scrollHeight = $(document).height();
@@ -13,6 +13,7 @@ $(window).scroll(function () {
     }
 });
 
+// main requirement
 function getData() {
     for (let i = 0; i < 100; i++) {
         const data = {
